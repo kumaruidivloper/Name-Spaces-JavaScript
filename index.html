@@ -7,13 +7,13 @@
 </head>
 <body>
 
-    <script>
-       // Call the customer function that is defined in TeamA.js
-       alert(window.nameSpace.TeamA.customer("Kumar", "shan").getFullName());
+    <div id="resultDiv">
 
-       // Call the customer function that is defined in TeamB.js
-       alert(window.nameSpace.TeamB.customer("Kumaravel", "M", "Shanmugam").getFullName());
-       
+    </div>
+
+    <script>
+       document.getElementById('resultDiv').innerHTML = 
+                new customer("Kumar", "Shan").getFullName()
     </script>
 
 </body>
