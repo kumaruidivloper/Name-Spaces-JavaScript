@@ -8,9 +8,11 @@
 <body>
 
     <script>
-        
-       alert(window.nameSpace.TeamA.customer("Kumar" + ' ' + "shan").getFullName());
-       alert(window.nameSpace.TeamB.customer("Kumaravel" + ' ' + "shanmugam" + ' ' + "M").getFullName());
+       // Call the customer function that is defined in TeamA.js
+       alert(window.nameSpace.TeamA.customer("Kumar", "shan").getFullName());
+
+       // Call the customer function that is defined in TeamB.js
+       alert(window.nameSpace.TeamB.customer("Kumaravel", "M", "Shanmugam").getFullName());
        
     </script>
 

@@ -8,7 +8,7 @@ nameSpace.TeamB.customer = function (firstName, middleName, lastName) {
     this.lastName = lastName;
 
     this.getFullName = function () {
-        return this.firstName + '' + this.middleName + '' + this.lastName;
+        return this.firstName + ' ' + this.middleName + ' ' + this.lastName;
     }
 
     return this;

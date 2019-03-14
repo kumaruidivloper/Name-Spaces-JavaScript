@@ -6,7 +6,7 @@ nameSpace.TeamA.customer = function (firstName, lastName) {
     this.lastName = lastName;
 
     this.getFullName = function () {
-        return this.firstName + '' + this.lastName;
+        return this.firstName + ' ' + this.lastName;
     }
     return this;
 }
